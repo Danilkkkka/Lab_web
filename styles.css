@@ -1,0 +1,170 @@
+body {
+    font-family: Calibri, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+header, footer {
+    background-color: #eeeeee;
+    color: rgb(106, 106, 106);
+    text-align: center;
+    padding: 1px 0;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #e0e0e0;
+}
+nav a {
+    color: rgb(106, 106, 106);
+    padding: 14px 84px;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover {
+    background-color: #c7c7c7;
+}
+main {
+    padding: 20px;
+}
+.razrabotchik {
+    display: flex;
+    align-items: center;
+}
+.razrab_photo {
+    width: 300px;
+    border-radius: 0%;
+    margin-right: 20px;
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.skill-bar {
+    height: 20px;
+    background-color: #f3f3f3;
+    margin: 10px 0;
+    position: relative;
+}
+.skill-bar span {
+    display: block;
+    height: 100%;
+    background-color: rgb(106, 106, 106);
+}
+.skill-bar span:before {
+    content: attr(data-percent);
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgb(106, 106, 106);
+    color: white;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+.tt_vv {
+    padding-left: 1%;
+}
+.news {
+    padding-left: 45%;
+}
+.gorod_info {
+    color:  rgb(106, 106, 106);
+    padding-left: 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo-goroda img {
+    width: 30%;
+    margin: 1%;
+}
+.novosti {
+    padding-left: 23%;
+    margin-top: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid rgb(106, 106, 106);
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+.map img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-form input, .contact-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.contact-form button {
+    padding: 10px;
+    background-color: rgb(106, 106, 106);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: rgb(106, 106, 106);
+}
+.ist_goroda {
+    font-family: Calibri;
+    color: rgb(106, 106, 106);
+}
+.sob {
+    text-align: center;
+}
+.year {
+    text-align: center;
+}
+.date {
+    text-align: center;
+}
+.his_donetsk {
+    text-align: center;
+}
+.map_don {
+    width: 1000px;
+}
+.city-infrastructure {
+    color: rgb(106, 106, 106);
+}
+.infra {
+    text-align: center;
+}
+.map_gor {
+    text-align: center;
+}
+.admin {
+    text-align: center;
+}
+.transport {
+    text-align: center;
+}
+.tex {
+    width: 800px;
+}
+.city-culture {
+    color: rgb(106, 106, 106);
+}
+.fio {
+    padding-left: 50px;
+}
+.contact-form {
+    color: rgb(106, 106, 106);
+}
